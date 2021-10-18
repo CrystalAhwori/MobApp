@@ -1,0 +1,52 @@
+// Q1.
+val myAge: Int = 20
+//Q2.
+var averageAge: Double = 20
+// (Your Age30+My Age20)/2=25
+averageAge = 25
+//Q3.
+var answer: Int=0
+answer+=1
+answer=answer +10
+answer*=10
+//final answer will be 110…. (1+10=11) … (11*10=110)
+//Q4.
+const val exercises: Int = 9
+var exercisesSolved: Int =0
+if (exercises-=1) {
+exercisesSolved+=1}
+else {
+exercisesSolved=0
+}
+//Q5.
+var Age: Int = 16
+print(age)
+Age = 30
+print(age)
+//I used var so that it compiles because val would make it constant.
+//Q6.
+val a: Double = 4.2
+val b: Double = 8.2
+val average: Double = (a+b)/2
+//Q7.
+val fahrenheit: Double =6.4
+val celsius: Double = fahrenheit-=32/1.8
+//Q8.
+val firstName: String = “Crystal”
+val lastName: String = “Ahwori”
+val fullName: String = firstName + “ ”+ lastName
+//Q9.
+val comma: Char = ‘,’
+val myDetails: String = “Hello $Char my name is $fullName”
+//Q10.
+val myAge: Int = 20
+if(myAge>=13 && myAge<=19) {
+println(“Teenager”)
+}
+else{
+println(“Not a teenager”)
+}
+
+//Result: Not a teenager
+//Q11.
+val answer = if (myAge!>=13 && myAge!<=19) “Not a teenager” else “Teenager”
